@@ -1,7 +1,7 @@
 # linux-commands-notes
 My useful linux commands that some times I need to use.
 
-## Basics commands line in on vi bash Linux
+## Basics commands line on vi bash Linux
 
 - `Ctrl + A: go to the beginning of line`
 - `Ctrl + E: go to the end of line`
@@ -20,4 +20,4 @@ My useful linux commands that some times I need to use.
 `find / -type d -name {directory-name}`
 
 ## Check the version of SO
-`cat /etc/os-release`
+git `
