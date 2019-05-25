@@ -20,4 +20,12 @@ My useful linux commands that some times I need to use.
 `find / -type d -name {directory-name}`
 
 ## Check the version of SO
-git `
+ `cat /etc/os-release`
+
+## Install nodeJs, npm on Fedora
+https://www.e2enetworks.com/help/knowledge-base/how-to-install-node-js-and-npm-on-centos/
+
+## Resolve ssh conection close
+`.ssh/config`
+```TCPKeepAlive yes
+ServerAliveInterval 30```
