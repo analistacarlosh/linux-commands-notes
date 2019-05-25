@@ -27,5 +27,8 @@ https://www.e2enetworks.com/help/knowledge-base/how-to-install-node-js-and-npm-o
 
 ## Resolve ssh conection close
 `.ssh/config`
-```TCPKeepAlive yes
-ServerAliveInterval 30```
+
+```
+TCPKeepAlive yes
+ServerAliveInterval 30
+```
