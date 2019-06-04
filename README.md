@@ -32,3 +32,15 @@ https://www.e2enetworks.com/help/knowledge-base/how-to-install-node-js-and-npm-o
 TCPKeepAlive yes
 ServerAliveInterval 30
 ```
+
+## Disk commands
+- 1 - Run `lsblk` to list available blocks (volumes) and note the volume size / names
+- 2 - Run `sudo growpart /dev/volumename 1` on the volume you want to resize, in our case it was `sudo growpart /dev/xvda 1`
+- 3 - Run `sudo resize2fs /dev/xvda1`  to expand file system
+- 4 - Check new size with `df -h` command
+
+### Change Disk size on Amazon volume
+https://support.amimoto-ami.com/english/self-hosting-accounts/increasing-your-ec2-volume-size
+
+## SSH
+`ssh -i "key.pem" server-user@server-ip`
