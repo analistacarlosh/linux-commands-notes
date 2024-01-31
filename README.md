@@ -8,6 +8,13 @@ My useful linux commands that some times I need to use.
 - `Ctrl + F: move forward one character`
 - `Ctrl + B: move backward one character`
 
+## check process running 
+`ps -aux`
+
+### troubles to get any service up and running because of port use conflict
+`ps -aux | grep ${PORT}`
+`sudo kill <PID>`
+
 ## Search some text inside of files
 
 `grep -rnw '/path/to/somewhere/' -e 'pattern'`
